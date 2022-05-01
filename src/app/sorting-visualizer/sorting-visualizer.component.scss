@@ -1,0 +1,40 @@
+.array-block {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+
+  .array-item {
+    display: inline-block;
+    margin: 2px 2px;
+    width: 3px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #4CAF50;
+}

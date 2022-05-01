@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-dark">
+   <ul>
+      <li class="nav-item" (click)="resetArray()">Generate New Array</li>
+      <li class="nav-item" (click)="mergeSort()">Merge Sort</li>
+      <li class="nav-item" (click)="quickSort()">Quick Sort</li>
+      <li class="nav-item" (click)="bubbleSort()">Bubble Sort</li>
+      <li class="nav-item" (click)="heapSort()">Heap Sort</li>
+   </ul>
+</nav>
+<div class="array-block">
+   <div class="array-item" *ngFor="let ele of array" [ngStyle]="{'height': ele+'px', 'background-color': color}">
+   </div>
+</div>
